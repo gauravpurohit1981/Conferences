@@ -28,7 +28,7 @@ steps:
     ArtifactName: Demo
 - task: AzurePowerShell@4
   inputs:
-    azureSubscription: 'b73e86ff-f01f-4a82-8bd5-690db5e4b013'
+    azureSubscription: 'jnaus-sp'
     ScriptType: 'InlineScript'
     Inline: |
            Write-Host "Setting Security Protocol"
