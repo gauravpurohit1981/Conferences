@@ -21,7 +21,7 @@ steps:
     ArtifactName: Demo
 - task: AzurePowerShell@4
   inputs:
-    azureSubscription: 'Consommation interne Microsoft Azure (aeaea727-e899-4c3b-9cdf-9dcfc75f4f2e)'
+    azureSubscription: '42f90701-a971-447e-b934-e43160439d5b'
     ScriptType: 'InlineScript'
     Inline: |
            Write-Host "Setting Security Protocol"
