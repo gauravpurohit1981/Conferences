@@ -7,7 +7,7 @@
           "metadata": {
               "description": "The domain name"
           },
-          "defaultValue": "contoso.com"
+          "defaultValue": "local.com"
       },
       "sqlServerServiceAccountUserName": {
           "type": "string",
@@ -35,7 +35,7 @@
           "metadata": {
               "description": "The Uri to the SQL Server installation ISO. E.g http://care.dlservice.microsoft.com/dl/download/2/F/8/2F8F7165-BB21-4D1E-B5D8-3BD3CE73C77D/SQLServer2014SP1-FullSlipstream-x64-ENU.iso"
           },
-          "defaultValue": "https://nikisos.blob.core.windows.net/isos/en_sql_server_2017_enterprise_x64_dvd_11293666.iso"
+          "defaultValue": "https://github.com/gauravpurohit1981/isos/en_sql_server_2017_enterprise_x64_dvd_11293666.iso"
       },
       "sharepoint2019DownloadLink": {
           "type": "string",
@@ -59,9 +59,9 @@
     "adVMSize": "Standard_D4s_v3",
     "sqlVMSize": "Standard_D4s_v3",
     "spVMSize": "Standard_D4s_v3",
-    "spassetLocation": "https://raw.githubusercontent.com/NikCharlebois/Conferences/master/2019%20-%20CollabSummit%20-%20Europe/SharePoint2019",
-    "adAssetLocation": "https://raw.githubusercontent.com/NikCharlebois/Conferences/master/2019%20-%20CollabSummit%20-%20Europe/AD/",
-    "sqlAssetLocation": "https://raw.githubusercontent.com/NikCharlebois/Conferences/master/2019%20-%20CollabSummit%20-%20Europe/SQL2017",
+    "spassetLocation": "https://raw.githubusercontent.com/gauravpurohit1981/Conferences/master/2019%20-%20CollabSummit%20-%20Europe/SharePoint2019",
+    "adAssetLocation": "https://raw.githubusercontent.com/gauravpurohit1981/Conferences/master/2019%20-%20CollabSummit%20-%20Europe/AD/",
+    "sqlAssetLocation": "https://raw.githubusercontent.com/gauravpurohit1981/Conferences/master/2019%20-%20CollabSummit%20-%20Europe/SQL2017",
     "location": "[resourceGroup().location]",
     "vmNetworkSubnet": "10.0.0.0/24",
     "virtualNetworkAddressRange": "10.0.0.0/16",
